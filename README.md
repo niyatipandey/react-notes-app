@@ -1,16 +1,80 @@
-# React + Vite
+# 📝 React Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern sticky notes app built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+Users can create, edit, pin, search, and trash notes with local storage support, toast notifications, dark/light mode, and a responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add Notes
+- ✏ Edit Notes
+- 📌 Pin Important Notes
+- 🔍 Search Notes
+- 🗑 Move Notes to Trash
+- 💾 Local Storage Support
+- 🌙 Dark / ☀ Light Mode
+- 🔔 Toast Notifications
+- 📱 Responsive Design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- Local Storage API
+- Lucide React Icons
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+ ├── Components/
+ │   ├── EmptyCheck.jsx
+ │   ├── NoteCard.jsx
+ │   ├── NoteForm.jsx
+ │   └── NoteList.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## 🚀 Run Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📚 Concepts Practiced
+
+- useState
+- useEffect
+- Props
+- Conditional Rendering
+- map(), filter(), sort()
+- Local Storage
+- Responsive Design
+- Theme Toggling
+
+---
+
+## 👨‍💻 Author
+
+Built by **Niyati Pandey**
