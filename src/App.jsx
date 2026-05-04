@@ -11,7 +11,7 @@ const App = () => {
   const [edit, setEdit] = useState(null)
   const [showTrash, setShowTrash] = useState(false)
   const [toast, setToast] = useState('')
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
 
 
   const [task, setTask] = useState(()=>{
