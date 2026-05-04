@@ -45,6 +45,11 @@ src/
 ```
 
 ---
+## 🌐 Live Demo
+
+🔗 [Click Here](https://react-notes-app-ivory-seven.vercel.app/)
+
+---
 
 ## 🚀 Run Locally
 
